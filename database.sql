@@ -38,6 +38,6 @@ CREATE TABLE IF NOT EXISTS orders (
     FOREIGN KEY (product_id) REFERENCES products(id)
 );
 
--- Insert default admin user (password: admin123)
+-- Insert default admin user (password: Admin@123)
 INSERT INTO users (username, email, password, role) VALUES 
-('admin', 'admin@example.com', '$2a$10$YourHashedPasswordHere', 'admin'); 
+('admin', 'admin@bconnect.com', '$2a$10$XOPbrlUPQdwdJUpSrIF6X.LbE14qsMmKGhM1A8W9iq.IXTzJYqKGi', 'admin'); 
